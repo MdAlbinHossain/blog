@@ -1,10 +1,7 @@
-# EmDash Blog Template (Cloudflare)
+# Personal Blog
 
 A clean, minimal blog built with [EmDash](https://github.com/emdash-cms/emdash) and deployed on Cloudflare Workers with D1 and R2.
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/emdash-cms/templates/tree/main/blog-cloudflare)
-
-![Blog template homepage](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/blog/latest/homepage-light-desktop.jpg)
 
 ## What's Included
 
@@ -51,17 +48,3 @@ pnpm install
 pnpm bootstrap
 pnpm dev
 ```
-
-## Deploying
-
-```bash
-pnpm deploy
-```
-
-Or click the deploy button above to set up the project in your Cloudflare account.
-
-## See Also
-
-- [Node.js variant](../blog) -- same template using SQLite and local file storage
-- [All templates](../)
-- [EmDash documentation](https://github.com/emdash-cms/emdash/tree/main/docs)
